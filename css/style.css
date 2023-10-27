@@ -22,7 +22,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: 0.8s;
+  
 }
 h1, h2, h4, h3 {
   font-family:dancin;
@@ -65,11 +65,25 @@ a{
 }
 a:hover{
   color: aqua;
+  transition: 0.8s;
+}
 
-  
+.carta{
+  display: grid;
+  background-color: grey;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  padding: 2rem;
+}
+.foto{
+  width: 300px;
+  height: 300px;
+  border: 2px solid yellow;
+}
 
 /* contacto */
-}
+
 .fondo{
   background-image: url(../img/fondo1.avif);
   height: 100%;
