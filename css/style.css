@@ -65,12 +65,22 @@ a{
 }
 a:hover{
   color: aqua;
+
   
+
+/* contacto */
 }
-body{
+.fondo{
   background-image: url(../img/fondo1.avif);
-  height: 100vh;
+  height: 100%;
   background-position: center;
   background-size: cover;
 
+}
+.cja{
+  border: 4px solid black;
+  background-color:#fff;
+  width:100%;
+  height:46px;
+  margin-bottom: 25px;
 }
